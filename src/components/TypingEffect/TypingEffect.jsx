@@ -7,8 +7,8 @@ const TypingEffect = () => {
   const [isDeleting, setIsDeleting] = useState(false);
 
   useEffect(() => {
-    const typingSpeed = isDeleting ? 100 : 200;
-    const pauseTime = 1000;
+    const typingSpeed = isDeleting ? 50 : 50;
+    const pauseTime = 800;
 
 
     const handleTyping = () => {
