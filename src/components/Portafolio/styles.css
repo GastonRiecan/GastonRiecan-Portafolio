@@ -15,7 +15,34 @@
   padding-bottom: 150px;
 }
 
-.proyecto-desplegado1 {
+.proyectos div {
+  margin: 10px;
+  padding: 10px;
   border-radius: 15px;
-  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: #4b75f2;
+  -webkit-box-shadow: 1px 1px 41px -1px rgba(0, 0, 0, 0.72);
+  -moz-box-shadow: 1px 1px 41px -1px rgba(0, 0, 0, 0.72);
+  box-shadow: 1px 1px 41px -1px rgba(0, 0, 0, 0.72);
+  font-weight: bold;
+}
+
+.proyectos h3 {
+  color: black;
+}
+
+.proyectos i {
+  font-size: 20px;
+}
+
+.proyecto-desplegado2 img {
+  width: 301px;
+  height: 167px;
+}
+
+.proyecto-desplegado3 img {
+  width: 301px;
+  height: 167px;
 }
