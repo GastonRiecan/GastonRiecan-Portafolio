@@ -1,0 +1,21 @@
+.portafolio {
+  background-color: inherit;
+  padding-top: 150px;
+  padding-left: 40px;
+}
+
+.h1-portafolio {
+  padding-bottom: 40px;
+}
+
+.proyectos {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  padding-bottom: 150px;
+}
+
+.proyecto-desplegado1 {
+  border-radius: 15px;
+  border: 1px solid red;
+}

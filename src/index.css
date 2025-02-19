@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', Open Sans;
+}
+
+h1 {
+  color: black;
+}
+
+h2 {
+  color: #b6c5f2;
+}
+
+h3 {
+  color: #B6C5F2;
+}
+
+button {
+  background-color: #4b75f2;
+  -webkit-box-shadow: 1px 1px 41px -1px rgba(0, 0, 0, 0.72);
+  -moz-box-shadow: 1px 1px 41px -1px rgba(0, 0, 0, 0.72);
+  box-shadow: 1px 1px 41px -1px rgba(0, 0, 0, 0.72);
+  font-weight: bold;
+}
+
+a {
+  color: black;
+}

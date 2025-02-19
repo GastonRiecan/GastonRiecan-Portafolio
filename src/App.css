@@ -1,0 +1,21 @@
+
+.container {
+  display: flex;
+  width: 100%;
+}
+
+.left {
+  width: 20%;
+  height: 100vh;
+  background-color: #B6C5F2;
+}
+
+.right {
+  width: 80%;
+  background-color: #435373;
+  height: 100vh;
+}
+
+.right section {
+  background-color: inherit;
+}

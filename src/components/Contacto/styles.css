@@ -1,0 +1,24 @@
+.contacto {
+  background-color: inherit;
+  padding-left: 20px;
+  padding-top: 50px;
+  padding-bottom: 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  color: black;
+  font-size: large;
+  font-weight: bold;
+}
+
+.h1-contacto {
+  padding-bottom: 10px;
+}
+
+.icons-dev {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}

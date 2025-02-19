@@ -1,0 +1,28 @@
+.sobre-mi {
+  background-color: inherit;
+  padding-top: 80px;
+  padding-left: 20px;
+  font-size: 1.2rem;
+  font-family: Open Sans;
+}
+
+.sobre-mi-texto {
+  max-width: 85ch;
+  line-height: 2;
+  color: #b6c5f2;
+}
+
+.h1-sobre-mi {
+  padding-bottom: 50px;
+}
+
+.sobre-mi-p-contacto {
+  padding-bottom: 40px;
+}
+
+.p-actualmente {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-weight: bold;
+  color: #4b75f2;
+}

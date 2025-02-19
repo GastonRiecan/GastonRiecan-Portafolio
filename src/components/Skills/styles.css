@@ -1,0 +1,51 @@
+.skills {
+  background-color: inherit;
+  padding-top: 80px;
+  padding-left: 40px;
+}
+
+.h1-skills {
+  padding-bottom: 40px;
+}
+
+.h3-lenguajes {
+  padding-bottom: 20px;
+}
+
+.leng-icons {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 50px;
+  gap: 40px;
+}
+
+.leng-icons img {
+  width: 60px;
+  height: 60px;
+}
+
+.frameworks {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  padding-bottom: 50px;
+  padding-top: 20px;
+}
+
+.frameworks img {
+  width: 60px;
+  height: 60px;
+}
+
+.soft {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  padding-bottom: 50px;
+  padding-top: 20px;
+}
+
+.soft img {
+  width: 60px;
+  height: 60px;
+}

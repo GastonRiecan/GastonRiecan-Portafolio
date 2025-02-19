@@ -1,0 +1,22 @@
+.educacion {
+  background-color: inherit;
+  padding-left: 40px;
+}
+
+.fecha {
+  font-size: 1rem;
+}
+
+.h2-educacion {
+  padding-bottom: 20px;
+  padding-top: 40px;
+  padding-right: 250px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.ver-certificado {
+  border-radius: 8px;
+  margin: 20px;
+  padding: 8px;
+}
