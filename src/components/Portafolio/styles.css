@@ -46,3 +46,9 @@
   width: 301px;
   height: 167px;
 }
+
+@media (max-width: 768px) {
+  .proyectos {
+    flex-direction: column;
+  }
+}

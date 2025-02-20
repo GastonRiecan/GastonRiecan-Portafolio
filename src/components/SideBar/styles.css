@@ -1,8 +1,13 @@
-.sidebar-container {
+ .sidebar-container {
   background-color: #1848D9;
   height: 100vh;
   position: fixed;
   width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+
 }
 
 .sidebar-items {
@@ -53,8 +58,45 @@ hr {
 }
 
 .face-pic {
-  margin-top: 100px;
-  margin-left: 100px;
+  margin-top: 50px;
   border-radius: 50%;
-  width: 100px;
+  width: 120px;
+  height: 120px;
 }
+
+
+/* Estilos del menú hamburguesa */
+.menu-toggle {
+  display: none;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+  font-size: 24px;
+  color: white;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .sidebar-container {
+    width: 100%;
+    transform: translateX(-100%);
+    position:absolute;
+    z-index: 1000;
+    justify-content: flex-start;
+  }
+
+  .sidebar-items {
+    padding-top: 0px;
+  }
+
+  .sidebar-container.open {
+    transform: translateX(0);
+  }
+
+  .menu-toggle {
+    display: block;
+    z-index: 1100;
+  }
+}
+

@@ -14,8 +14,19 @@
   width: 80%;
   background-color: #435373;
   height: 100vh;
+  padding-left: 40px;
 }
 
 .right section {
   background-color: inherit;
+}
+
+@media (max-width: 768px) {
+  .left {
+    width: 0vw;
+  }
+
+  .right {
+    width: 100vw;
+  }
 }

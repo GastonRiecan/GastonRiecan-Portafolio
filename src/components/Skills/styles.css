@@ -49,3 +49,16 @@
   width: 60px;
   height: 60px;
 }
+
+/* Responsive */
+@media (max-width: 768px) {
+  .soft {
+    flex-direction: column;
+  }
+  .frameworks{
+    flex-direction: column;
+  }
+  .leng-icons {
+    flex-direction: column;
+  }
+}

@@ -22,3 +22,11 @@
   flex-direction: row;
   gap: 20px;
 }
+
+/* Responsive */
+@media (max-width: 768px) {
+  .contacto {
+    overflow: hidden;
+    display: flex;
+  }
+}
