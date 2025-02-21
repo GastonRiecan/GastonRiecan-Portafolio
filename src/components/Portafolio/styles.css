@@ -40,11 +40,13 @@
 .proyecto-desplegado2 img {
   width: 301px;
   height: 167px;
+  overflow: hidden;
 }
 
 .proyecto-desplegado3 img {
   width: 301px;
   height: 167px;
+  overflow: hidden;
 }
 
 @media (max-width: 768px) {

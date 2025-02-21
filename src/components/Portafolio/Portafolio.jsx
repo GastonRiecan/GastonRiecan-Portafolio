@@ -23,7 +23,8 @@ const Portafolio = () => {
         </div>
         <div className="proyecto-desplegado2">
         <h3>Aplicacion de Notas</h3>
-          <img src="https://github.com/GastonRiecan/images-repository/raw/main/images/notas.jpg" alt="Apps Notes portada" />
+          <img 
+          src="https://github.com/GastonRiecan/images-repository/raw/main/images/notas.jpg" alt="Apps Notes portada" />
           <a 
           target="_blank"
           href="https://notes-app-psi-ashen.vercel.app/">
