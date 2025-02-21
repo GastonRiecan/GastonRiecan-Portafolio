@@ -1,6 +1,13 @@
 import "./styles.css";
 
 const Educacion = () => {
+
+  const verCertificado = () => {
+    const url = "https://drive.google.com/file/d/1pSz6XeQU19Pt93L7puf08RuXkltikFV8/view?usp=sharing"; 
+    window.open(url, "_blank");
+  };
+
+
   return (
     <div className="educacion">
       <h1 className="h1-educacion">EDUCACION</h1>
@@ -17,7 +24,9 @@ const Educacion = () => {
           (Universiadad Tecnologica Nacional UTN, modalidad remoto, BSAS
           Argentina.)
         </h3>
-        <button className="ver-certificado">Ver certificado</button>
+        <button 
+        onClick={verCertificado}
+        className="ver-certificado">Ver certificado</button>
       </div>
       <div className="educacion-universitas">
         <h2 className="h2-educacion">
