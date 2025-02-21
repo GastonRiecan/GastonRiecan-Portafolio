@@ -2,8 +2,7 @@ import "./styles.css";
 
 const Educacion = () => {
 
-  const verCertificado = () => {
-    const url = "https://drive.google.com/file/d/1pSz6XeQU19Pt93L7puf08RuXkltikFV8/view?usp=sharing"; 
+  const verCertificado = (url) => {
     window.open(url, "_blank");
   };
 
@@ -25,7 +24,7 @@ const Educacion = () => {
           Argentina.)
         </h3>
         <button 
-        onClick={verCertificado}
+        onClick={()=>verCertificado("https://drive.google.com/file/d/1pSz6XeQU19Pt93L7puf08RuXkltikFV8/view?usp=drive_link")}
         className="ver-certificado">Ver certificado</button>
       </div>
       <div className="educacion-universitas">
@@ -40,7 +39,9 @@ const Educacion = () => {
         <h3>
           (Universitas Estudios Superiores modalidad remoto, BSAS Argentina. )
         </h3>
-        <button className="ver-certificado">Ver certificado</button>
+        <button 
+        onClick={verCertificado}
+        className="ver-certificado">Ver certificado</button>
       </div>
       <div className="educacion-aws">
         <h2 className="h2-educacion">
