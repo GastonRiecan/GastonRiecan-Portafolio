@@ -31,10 +31,20 @@
 
 .proyectos h3 {
   color: black;
+  background-color: #4b75f2;
 }
 
 .proyectos i {
   font-size: 20px;
+  background-color: #4b75f2;
+}
+
+.proyectos a {
+  background-color: #4b75f2;
+}
+
+.proyectos span {
+  background-color: #4b75f2;
 }
 
 .proyecto-desplegado2 img {

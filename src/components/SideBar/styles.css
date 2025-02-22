@@ -35,12 +35,14 @@ ul {
   flex-direction: column;
   justify-content: center; 
   align-items: center;
+  background-color: #1848D9;
 }
 
 ul li {
   margin: 0 10px;
   font-size: large;
   font-weight: bold;
+  background-color: #1848D9;
 }
 
 ul li:hover {
@@ -49,6 +51,7 @@ ul li:hover {
 
 ul li a {
   text-decoration: none;
+  background-color: #1848D9;
 }
 
 hr {
