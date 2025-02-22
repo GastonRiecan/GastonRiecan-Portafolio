@@ -31,5 +31,6 @@
 @media (max-width: 768px) {
   .sobre-mi {
     width: auto;
+    padding-left: 10px;
   }
 }

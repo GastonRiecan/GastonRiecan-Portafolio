@@ -1,22 +1,48 @@
 .educacion {
   background-color: inherit;
   padding-left: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
+
+.edu-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+
 
 .fecha {
   font-size: 1rem;
+  font-weight: bold;
 }
 
-.h2-educacion {
-  padding-bottom: 20px;
-  padding-top: 40px;
-  padding-right: 250px;
+.head-edu {
   display: flex;
-  justify-content: space-between;
+  gap: 150px;
 }
 
 .ver-certificado {
   border-radius: 8px;
   margin: 20px;
   padding: 8px;
+  width: 150px;
+}
+
+@media (max-width: 768px) {
+  .educacion{
+    padding-left: 10px;
+  }
+  .educacion-utn {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .head-edu {
+    flex-direction: column;
+    gap: 15px;
+  }
 }

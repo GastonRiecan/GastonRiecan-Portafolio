@@ -52,6 +52,9 @@
 
 /* Responsive */
 @media (max-width: 768px) {
+  .skills {
+    padding-left: 10px;
+  }
   .soft {
     flex-direction: column;
   }

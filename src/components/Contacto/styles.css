@@ -28,5 +28,14 @@
   .contacto {
     overflow: hidden;
     display: flex;
+    padding-left: 10px;
+  }
+  .contacto i {
+    font-size: 60px;
+  }
+
+  .contacto span {
+    display: flex;
+    flex-direction: column;
   }
 }

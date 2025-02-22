@@ -91,10 +91,17 @@ hr {
 
   .sidebar-items {
     padding-top: 0px;
+    padding-bottom: 20px;
   }
 
   .sidebar-container.open {
     transform: translateX(0);
+    padding: 0px;
+    height: auto;
+  }
+
+  .face-pic {
+    margin-bottom: 10px;
   }
 
   .menu-toggle {

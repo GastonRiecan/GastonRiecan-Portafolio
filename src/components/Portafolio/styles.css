@@ -63,4 +63,8 @@
   .proyectos {
     flex-direction: column;
   }
+
+  .portafolio {
+    padding-left: 10px;
+  }
 }
