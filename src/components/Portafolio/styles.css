@@ -47,6 +47,12 @@
   background-color: #4b75f2;
 }
 
+.proyectos img {
+  width: 301px;
+  height: 167px;
+  overflow: hidden;
+}
+
 .proyecto-desplegado2 img {
   width: 301px;
   height: 167px;

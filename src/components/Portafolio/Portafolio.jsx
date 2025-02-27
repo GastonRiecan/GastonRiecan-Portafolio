@@ -6,8 +6,8 @@ const Portafolio = () => {
       <h1 className="h1-portafolio">PORTAFOLIO</h1>
       <div className="proyectos">
         <div className="proyecto-desplegado1">
-          <h3>Clon de Slack</h3>
-          <img src="https://github.com/GastonRiecan/images-repository/raw/main/images/images.png" alt="Slack portada" />
+          <h3>Proyecto de Chat personalizado</h3>
+          <img src="https://github.com/GastonRiecan/images-repository/raw/main/images/live-chat.jpg" alt="Chat portada" />
           <a 
           target="_blank"
           href="https://slack-utn.vercel.app/">
