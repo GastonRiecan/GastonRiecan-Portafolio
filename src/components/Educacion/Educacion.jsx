@@ -40,7 +40,7 @@ const Educacion = () => {
           (Universitas Estudios Superiores modalidad remoto, BSAS Argentina. )
         </h3>
         <button 
-        onClick={verCertificado}
+        onClick={()=>verCertificado("https://drive.google.com/file/d/104TUY3ogQkGR1I97kfqgkbbfTnFrQLru/view?usp=sharing")}
         className="ver-certificado">Ver certificado</button>
       </div>
       <div className="edu-container">
