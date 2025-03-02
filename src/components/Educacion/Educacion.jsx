@@ -86,7 +86,14 @@ const Educacion = () => {
           React.
         </h3>
         <h3>(Solo-learn, Freecodecamp, modalidad remoto, BSAS Argentina.)</h3>
-        <button className="ver-certificado">Ver certificado</button>
+        <button
+        className="ver-certificado"
+        onClick={()=>verCertificado("https://drive.google.com/file/d/1n_o-hqznZ1siSbYrF738NMZsDkCq4rWh/view?usp=sharing")}
+        >Ver certificado FreeCodeCamp</button>
+        <button
+        className="ver-certificado"
+        onClick={()=>verCertificado("https://drive.google.com/file/d/1JdRGOnfvuYvSlVOt74cB6PA_eqmUXQIv/view?usp=sharing")}
+        >Ver certificado Solo-Learn</button>
       </div>
       <hr />
     </div>
