@@ -21,7 +21,7 @@ const Portafolio = () => {
             </a>
           </span>
         </div>
-        <div className="proyecto-desplegado2">
+{/*         <div className="proyecto-desplegado2">
         <h3>Aplicacion de Notas</h3>
           <img 
           src="https://github.com/GastonRiecan/images-repository/raw/main/images/notas.jpg" alt="Apps Notes portada" />
@@ -47,7 +47,7 @@ const Portafolio = () => {
               <i className="bi bi-github">&nbsp;Mira como esta hecho</i>
             </a>
           </span>
-        </div>
+        </div> */}
       </div>
       <hr />
     </div>
