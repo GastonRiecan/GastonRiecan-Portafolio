@@ -39,7 +39,9 @@ const Portafolio = () => {
         <div className="proyecto-desplegado3">
         <h3>Web Emprendimiento de Soldadura</h3>
           <img src="https://github.com/GastonRiecan/images-repository/raw/main/images/ChatGPT%20Image%2021%20ago%202025%2C%2009_35_52%20p.m..png" alt="WeldingPage logo Image" />
-          <a href="https://v0-personal-web-page-lake.vercel.app/">
+          <a 
+          target="_blank"
+          href="https://v0-personal-web-page-lake.vercel.app/">
             <i className="bi bi-link-45deg">&nbsp;Ingresar</i>
           </a>
           <span>
