@@ -18,6 +18,8 @@
 .proyectos div {
   margin: 10px;
   padding: 10px;
+  width: 300px;
+  height: 400px;
   border-radius: 15px;
   display: flex;
   flex-direction: column;
@@ -48,20 +50,20 @@
 }
 
 .proyectos img {
-  width: 301px;
+  width: 170px;
   height: 167px;
   overflow: hidden;
 }
 
 .proyecto-desplegado2 img {
-  width: 301px;
-  height: 167px;
+  width: 150;
+  height: 160px;
   overflow: hidden;
 }
 
 .proyecto-desplegado3 img {
-  width: 200px;
-  height: 100px;
+  width: 170px;
+  height: 160px;
   overflow: hidden;
 }
 
