@@ -11,7 +11,7 @@ const Gaston = () => {
       </div>
       <hr />
       <h2 className="gaston-h2">
-        BIENVENIDO/A A MI PORTAFOLIO COMO DESARROLLADOR TRAINEE.
+        BIENVENIDO/A A MI PORTAFOLIO COMO DESARROLLADOR WEB.
       </h2>
       <h3 className="gaston-contact">
         Si quieres ponerte en contacto conmigo escribeme a:

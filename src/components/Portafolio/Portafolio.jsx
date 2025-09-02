@@ -21,33 +21,33 @@ const Portafolio = () => {
             </a>
           </span>
         </div>
-{/*         <div className="proyecto-desplegado2">
-        <h3>Aplicacion de Notas</h3>
+        <div className="proyecto-desplegado2">
+        <h3>Componenete de Frontend Mentor</h3>
           <img 
-          src="https://github.com/GastonRiecan/images-repository/raw/main/images/notas.jpg" alt="Apps Notes portada" />
+          src="https://github.com/GastonRiecan/images-repository/raw/main/qrFrontendMentor.jpg" alt="QR component image" />
           <a 
           target="_blank"
-          href="https://notes-app-psi-ashen.vercel.app/">
+          href="https://frontend-mentor-qr-component-three.vercel.app/">
             <i className="bi bi-link-45deg">&nbsp;Ingresar</i>
           </a>
           <span>
-            <a href="https://notes-app-psi-ashen.vercel.app/">
+            <a href="https://github.com/GastonRiecan/FrontendMentor-QR-Component">
               <i className="bi bi-github">&nbsp;Mira como esta hecho</i>
             </a>
           </span>
         </div>
         <div className="proyecto-desplegado3">
-        <h3>Calculadora con Javascript</h3>
-          <img src="https://github.com/GastonRiecan/images-repository/raw/main/images/calculadora-cientifica.jpg" alt="Calculadora Image" />
-          <a href="">
+        <h3>Web Emprendimiento de Soldadura</h3>
+          <img src="https://github.com/GastonRiecan/images-repository/blob/main/images/ChatGPT%20Image%2021%20ago%202025%2C%2009_35_52%20p.m..png" alt="WeldingPage logo Image" />
+          <a href="https://v0-personal-web-page-lake.vercel.app/">
             <i className="bi bi-link-45deg">&nbsp;Ingresar</i>
           </a>
           <span>
-            <a href="">
+            <a href="https://github.com/GastonRiecan/Gaston-Riecan-WeldingWebPage">
               <i className="bi bi-github">&nbsp;Mira como esta hecho</i>
             </a>
           </span>
-        </div> */}
+        </div>
       </div>
       <hr />
     </div>
