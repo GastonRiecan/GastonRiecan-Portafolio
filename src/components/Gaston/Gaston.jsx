@@ -20,7 +20,7 @@ const Gaston = () => {
         </a>
       </h3>
       <a
-        href="https://github.com/GastonRiecan/images-repository/raw/main/images/GastonRiecanCV2025--.pdf"
+        href="https://github.com/GastonRiecan/images-repository/raw/main/images/Gaston_Riecan_CV_ES.pdf"
         download="CV_GastonRiecan.pdf"
       >
         <button className="descarga-cv">Descargar mi CV</button>
