@@ -9,14 +9,9 @@ const SobreMi = () => {
         <p className="sobre-mi-texto">
           Soy Gaston Riecan, un desarrollador full-stack apasionado por la
           creación de aplicaciones web eficientes y escalables. Con una sólida
-          formación en JavaScript, React y Node.js, disfruto resolviendo
+          formación en Next.js, React.js y Node.js, disfruto resolviendo
           problemas y optimizando procesos para mejorar la experiencia del
-          usuario. Mi trayectoria en Toyota Argentina S.A., donde trabajé como
-          Team Leader durante casi una década, me brindó habilidades en gestión
-          de equipos, mejora continua y resolución de problemas. Esta
-          experiencia, combinada con mi formación en desarrollo, me permite
-          abordar proyectos con una mentalidad analítica y enfocada en la
-          eficiencia.
+          usuario.
         </p>
         <p className="p-actualmente">
           ACTUALMENTE ESTUDIO Y ME ENCUENTRO EN BUSQUEDA LABORAL ACTIVA COMO
