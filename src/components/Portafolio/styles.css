@@ -2,77 +2,123 @@
   background-color: inherit;
   padding-top: 150px;
   padding-left: 40px;
+  text-align: center;
 }
 
 .h1-portafolio {
   padding-bottom: 40px;
+  font-size: 2.2rem;
+  letter-spacing: 2px;
 }
 
+/* ==== Contenedor principal ==== */
 .proyectos {
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+  flex-wrap: nowrap;
   gap: 40px;
   padding-bottom: 150px;
+  overflow-x: auto; /* para evitar que se rompa en pantallas más chicas */
 }
 
+/* ==== Tarjetas ==== */
 .proyectos div {
+  flex: 1 1 300px;
+  max-width: 320px;
   margin: 10px;
-  padding: 10px;
-  width: 300px;
-  height: 400px;
+  padding: 20px;
   border-radius: 15px;
   display: flex;
   flex-direction: column;
-  gap: 20px;
-  background-color: #4b75f2;
-  -webkit-box-shadow: 1px 1px 41px -1px rgba(0, 0, 0, 0.72);
-  -moz-box-shadow: 1px 1px 41px -1px rgba(0, 0, 0, 0.72);
-  box-shadow: 1px 1px 41px -1px rgba(0, 0, 0, 0.72);
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(180deg, #4b75f2 0%, #365ed8 100%);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.35);
   font-weight: bold;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
+.proyectos div:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.45);
+}
+
+/* ==== Títulos ==== */
 .proyectos h3 {
-  color: black;
-  background-color: #4b75f2;
+  color: #fff;
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+  background: none; /* evita el color raro */
+}
+
+/* ==== Imágenes ==== */
+.proyectos img {
+  width: 100%;
+  max-width: 280px;
+  height: 200px;
+  object-fit: contain; /* mantiene proporción sin recortar */
+  background-color: #ffffff10;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+/* Hover con zoom suave */
+.proyectos img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.35);
+}
+
+/* ==== Enlaces ==== */
+.proyectos a {
+  text-decoration: none;
+  color: white;
+  background: none;
 }
 
 .proyectos i {
   font-size: 20px;
-  background-color: #4b75f2;
+  transition: color 0.3s ease;
+  background: none;
 }
 
-.proyectos a {
-  background-color: #4b75f2;
+.proyectos a:hover i {
+  color: #00bfff;
 }
 
+/* ==== Span (GitHub link debajo) ==== */
 .proyectos span {
-  background-color: #4b75f2;
+  background: none;
 }
 
-.proyectos img {
-  width: 170px;
-  height: 167px;
-  overflow: hidden;
-}
-
-.proyecto-desplegado2 img {
-  width: 150;
-  height: 160px;
-  overflow: hidden;
-}
-
-.proyecto-desplegado3 img {
-  width: 170px;
-  height: 160px;
-  overflow: hidden;
+/* ==== Responsive ==== */
+@media (max-width: 1024px) {
+  .proyectos {
+    flex-wrap: wrap;
+  }
 }
 
 @media (max-width: 768px) {
   .proyectos {
     flex-direction: column;
+    align-items: center;
+    gap: 60px;
   }
 
   .portafolio {
-    padding-left: 10px;
+    padding-left: 0;
+  }
+
+  .proyectos div {
+    width: 85%;
+    height: auto;
+  }
+
+  .proyectos img {
+    height: 200px;
+    object-fit: contain;
   }
 }
