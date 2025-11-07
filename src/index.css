@@ -1,7 +1,6 @@
 * {
   margin: 0;
   padding: 0;
-  background-color: #435373;
 }
 
 body {
@@ -32,7 +31,23 @@ a {
   color: black;
 }
 
-/* Media Query para pantallas pequeñas */
+.sidebar {
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
+hr,
+.divider,
+section > hr,
+.container > hr {
+  display: none !important;
+  height: 0 !important;
+  margin: 0 !important;
+  border: 0 !important;
+  background: transparent !important;
+}
+
+
 @media (max-width: 768px) {
   .sidebar-container {
     width: 60%;
